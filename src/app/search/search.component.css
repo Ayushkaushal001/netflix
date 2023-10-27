@@ -1,0 +1,18 @@
+button {
+	background-color: #EA0914;
+	color: white;	
+
+}
+button:hover {
+	background-color: #EA0914;
+	color:white;
+	z-index: 1;
+
+}
+img {
+	width: 100%;
+	cursor:pointer;
+}
+h5 {
+	color: white;
+}

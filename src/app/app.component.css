@@ -1,0 +1,56 @@
+.background-image {
+  background-image: url('../assets/aa.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.background-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (0.5) to control the darkness */
+  z-index: -1;
+}
+
+.larger-text {
+  font-size: 4em; }
+
+.content-container {
+  margin-left: 4%;
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.btn {
+  border-radius: 10px; /* Adjust the value to control the roundness of corners */
+  padding: 4px 30px; /* Adjust the padding as needed */
+  cursor: pointer;
+ /* Set the default text color */
+}
+
+.btn:hover {
+  color: lightcyang; /* Change the text color on hover */
+}
+
+.btn.active {
+  color: white; /* Change the text color when the button is clicked (active) */
+}
+
+.gap {
+  width: 20px;
+}

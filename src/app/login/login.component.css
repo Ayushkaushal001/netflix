@@ -1,0 +1,29 @@
+/* Additional CSS for styling */
+.container {
+  background-color: black; /* Set the background to black */
+  color: grey; /* Set text color to white */
+}
+
+
+
+.form-control {
+  border-color: #ffffff; 
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-warning {
+  background-color: red; /* Set the background color of the "Sign in" button */
+  color: #ffffff; /* Set text color to white */
+  border: none; /* Remove the button border */
+}
+
+.btn-warning:hover {
+  background-color: #cc6600; /* Change the button background color on hover */
+}
+
+.text-warning {
+  color: #ff8800; /* Set the text color of warning text and links */
+}
+
+/* Adjust other styles as needed to match your professional design preferences */

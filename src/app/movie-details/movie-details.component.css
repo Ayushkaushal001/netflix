@@ -1,0 +1,22 @@
+img {
+	width: 100%;
+	height: auto;
+}
+h1{
+	color: white;
+	font-weight: bold;
+}
+P{
+	color: white; 
+}
+
+a{
+	background-color: #EA0914;
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	background-color: #EA0914;
+	color: white;
+	border: 2px  solid white;
+}

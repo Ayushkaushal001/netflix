@@ -1,0 +1,122 @@
+ .navbar .navbar-brand {
+    color: #EA0914;
+    font-weight: bold;
+
+ }
+ .navbar-nav .nav-item .nav-link{
+    color: #EA0914;
+
+ }
+.black-background-log {
+  background-color: #000;
+ /* You can adjust the padding as needed */
+  border-radius: 50%; /* Makes the background round */
+}
+
+.black-background-log img {
+  width: 150px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+
+
+
+
+.carousel-inner
+{
+    height: 700px;
+}
+
+.carousel-inner .carousel-item img
+{
+    height: 700px;
+    object-fit: cover;
+}
+
+.carousel-caption h2
+{
+    color: #E50914;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.carousel-caption p 
+{
+    color: #ffffff;
+}
+
+.rowposter{
+    display: flex;
+/*    overflow-y: hidden;*/
+    overflow-x: scroll;
+}
+
+.rowimg
+{
+    max-height: 100px;
+    object-fit: contain;
+    width: 100%;
+    box-sizing: content-box;
+    transition: transform 450ms;
+    margin-right: 7px;
+}
+
+.rowimg:hover
+{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.largeposter{
+    max-height: 200px;
+}
+
+.rowposter::-webkit-scrollbar
+{
+    display: none;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer ul li {
+  font-size: 16px;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f00; /* Change to your preferred highlight color on hover */
+}
+
+/* Copyright Text */
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+}

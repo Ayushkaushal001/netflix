@@ -1,0 +1,27 @@
+/* Additional CSS for styling */
+.container {
+  background-color: black;
+  color: white;
+}
+
+.shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+  border-color: #ffffff;
+}
+
+.btn-dark {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #333333;
+}
+
+.text-dark {
+  color: #000000;
+}

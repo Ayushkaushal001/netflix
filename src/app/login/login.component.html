@@ -1,16 +1,18 @@
+
+
 <div class="container pt-3 pb-3">
   <div class="row justify-content-center">
-    <div class="col-5 p-4 shadow" style="border-radius: 20px; background-color: #ffffff;">
-      <p class="display-6 text-center fw-bold " style="text-decoration-color: red;">Welcome Back</p>
+    <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4 p-4 shadow" style="border-radius: 20px; background-color: #ffffff;">
+      <p class="display-6 text-center fw-bold text-danger">Welcome Back</p>
       <form [formGroup]="form" (ngSubmit)="onSubmit()">
-        <div class="col-12 mb-3">
+        <div class="mb-3">
           <input type="text" class="form-control" placeholder="Email Address" formControlName="emailId">
           <div *ngIf="form.controls['emailId'].touched">
             <span class="text-danger" *ngIf="form.controls['emailId'].hasError('required')">Email is required</span>
             <span class="text-danger" *ngIf="form.controls['emailId'].hasError('email')">Enter a valid email address</span>
           </div>
         </div>
-        <div class="col-12">
+        <div>
           <input type="password" class="form-control" placeholder="Password" formControlName="password">
           <div *ngIf="form.controls['password'].touched">
             <span class="text-danger" *ngIf="form.controls['password'].hasError('required')">Password is required</span>
@@ -23,7 +25,9 @@
         </div>
       </form>
       <h4 class="text-warning text-center">{{msg}}</h4>
-      <p class="text-center mt-3">Don't have an account? <a href="/registor" class="text-warning">Sign Up</a></p>
+      <p class="text-center mt-3">Don't have an account? <a href="/register" class="text-warning">Sign Up</a></p>
     </div>
   </div>
 </div>
+
+
